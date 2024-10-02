@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="home">
+    <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            
+          </div>
+          <div class="col-md-auto">
+           <h1>MOS BURGUR</h1>
+          </div>
+
+
+          <div class="col col-lg-2">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <table class="table table-dark" id="tblCustomer">
+                <thead>
+                  <tr>
+                    <th scope="col">CustomerNumber</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">item</th>
+                    <th scope="col">phone Number</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+              
+                </tbody>
+              </table>
+          </div>
+         
+          
+            <div class="col col-lg-2">
+            
+            </div>
+            
+          
+          <div class="col col-lg-2">
+            <a href="http://127.0.0.1:5503/customer.html"><div class="row"><button1>Customer</button1></div></a>
+            <a href="http://127.0.0.1:5503/items.html"><div class="row"><button1>Items</button1></div></a>
+          </div>
+          
+          
+        </div>
+        <form action="" id="txtForm"></form>
+        <input type="text" placeholder="CustomerNumber" id="txtNo">
+        <input type="text" placeholder="Name" id="txtName">
+        <input type="text" placeholder="item" id="txtItem">
+        <input type="text" placeholder="phone Number" id="txtPhoneNumber">     
+       
+       <div class="btn">
+        <button type="button" class="btn btn-danger"  id="btndelete" onclick="BtnDelete()">Delete</button>
+        <button type="button" class="btn btn-warning" id="btnAdd" onclick="BtnAdd()">Add</button>
+        </div>
+      </form>
+      </div>
+    </div>
+         
+        
+    <script src="app.js"></script>
+</body>
+</html>

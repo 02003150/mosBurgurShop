@@ -1,0 +1,30 @@
+body{
+    background-image:url(burgur3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.home{
+    background-color: rgba(203, 141, 26, 0.714);
+    margin: 16%;
+    margin-top: 3%;
+    padding: 4%;
+    padding-bottom: 16%;
+    border-radius: 10%;
+
+}
+h1{
+    text-align: center;
+    margin-top: -2%;
+}
+h2{
+    color: rgb(205, 115, 25);
+}
+button1{
+    margin: 10%;
+    background-color: rgb(229, 81, 18);
+    padding: 6%;
+    border-radius: 6%;
+}
