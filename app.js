@@ -47,7 +47,7 @@ function BtnAdd() {
 }
 
 function BtnDelete() {
-  document.getElementById("tblCustomer").deleteRow(0);
+  document.getElementById("tblCustomer").deleteRow(2);
 }
 function btnAddMenu() {
 
@@ -122,7 +122,7 @@ function btnAddOder() {
   cell2.innerHTML = itmno;
 }
 
-/*function loadTable() {
+function loadTable() {
   tableBody = ` <thead>
                 <tr>
                   <th scope="col">Item Code</th>
@@ -153,7 +153,7 @@ function btnAddOder() {
 
 
 
-  var item = document.getElementById("tableItem");
+  var item = document.getElementById("");
   item.innerHTML = tableBody;
 
   itemList.push(itemDetails);
@@ -223,7 +223,7 @@ let drinks = [
   { itemCode: "B1045", itemName: "Coca-Cola (330ml)", price: 1230.00, discount: "-", stock: 93, image: "images/cocacola.jpg" },
   { itemCode: "B1046", itemName: "Sprite (330ml)", price: 1500.00, discount: "3%", stock: 114, image: "images/sprite.jpg" },
   { itemCode: "B1047", itemName: "Mirinda (330ml)", price: 850.00, discount: "7%", stock: 125, image: "images/mirinda.jpg" }
-];*/
+];
 
 function loadTableItems(){
   ItmList=
@@ -298,6 +298,10 @@ ItmList.forEach(items => {
 var item = document.getElementById("tableItem");
 item.innerHTML = tableBody;
 
+
+}
+function BtnDelete() {
+  document.getElementById("tblCustomer").deleteRow(0);
 }
 function btnSearchMenu(){
   var searchInputItem=document.getElementById("txtItemNo").value;
